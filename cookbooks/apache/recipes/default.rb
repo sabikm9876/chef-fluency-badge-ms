@@ -4,7 +4,7 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 #Install apache package
-pakage 'apache2' do
+package 'apache2' do
        package_name 'httpd'
        action :install
 end
